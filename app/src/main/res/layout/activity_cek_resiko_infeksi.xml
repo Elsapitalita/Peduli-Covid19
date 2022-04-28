@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/c2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CekResikoInfeksi">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cek Resiko"
+            android:textAlignment="center"
+            android:textColor="@color/c9"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="7dp"
+            android:background="@color/c9" />
+
+        <!--Data ke 1-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Saya dlm sehari kena cahaya"
+            android:textColor="@color/c9"
+            android:textSize="15dp" />
+
+        <Switch
+            android:id="@+id/switchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="255dp"
+            android:layout_marginTop="-22dp"
+            android:text="Tidak"
+            android:textColor="@color/c9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="-21dp"
+            android:text="Ya"
+            android:textColor="@color/c9"
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="2dp"
+            android:background="@color/c9" />
+
+        <!--point 2-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="saya tdk jalan kaki/berolahraga"
+            android:textAlignment="gravity"
+            android:textColor="@color/c9"
+            android:textSize="15dp" />
+
+        <Switch
+            android:id="@+id/switchButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="255dp"
+            android:layout_marginTop="-25dp"
+            android:text="Tidak" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="-21dp"
+            android:text="Ya"
+            android:textColor="@color/c9"
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/c9" />
+
+        <!--point 3-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="saya jarang minum vitamin C dan E"
+            android:textAlignment="gravity"
+            android:textColor="@color/c9"
+            android:textSize="15dp" />
+
+        <Switch
+            android:id="@+id/switchButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="255dp"
+            android:layout_marginTop="-24dp"
+            android:text="Tidak" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="-21dp"
+            android:text="Ya"
+            android:textColor="@color/c9"
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/c9" />
+
+        <!--point 4-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Usia saya diatas 60 th"
+            android:textAlignment="gravity"
+            android:textColor="@color/c9"
+            android:textSize="15dp" />
+
+        <Switch
+            android:id="@+id/switchButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:layout_marginLeft="255dp"
+            android:layout_marginTop="-21dp"
+            android:text="Tidak" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="-21dp"
+            android:text="Ya"
+            android:textColor="@color/c9"
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/c9" />
+
+        <!--point 5-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="saya tidak segera mandi keramas "
+            android:textAlignment="gravity"
+            android:textColor="@color/c9"
+            android:textSize="15dp" />
+
+        <Switch
+            android:id="@+id/switchButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="255dp"
+            android:layout_marginTop="-24dp"
+            android:text="Tidak" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="-21dp"
+            android:text="Ya"
+            android:textColor="@color/c9"
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/c9" />
+
+        <!--point 6-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="saya mmpunyai penyakit jantung"
+            android:textAlignment="gravity"
+            android:textColor="@color/c9"
+            android:textSize="15dp" />
+
+        <Switch
+            android:id="@+id/switchButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="255dp"
+            android:layout_marginTop="-24dp"
+            android:text="Tidak" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="-21dp"
+            android:text="Ya"
+            android:textColor="@color/c9"
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/c9" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="266dp"
+        android:layout_marginTop="243dp"
+        android:background="@color/c10"
+        android:text="Cek Resiko"
+        android:textAllCaps="false"
+        android:textColor="@color/c2" />
+</RelativeLayout>
